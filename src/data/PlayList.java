@@ -1,13 +1,22 @@
 package data;
 
-import java.util.List;
-import java.util.UUID;
+import com.esotericsoftware.jsonbeans.Json;
+import com.esotericsoftware.jsonbeans.JsonSerializable;
+import com.esotericsoftware.jsonbeans.JsonValue;
 
-public class PlayList {
+import java.util.List;
+
+public class PlayList implements JsonSerializable {
     protected String name;
     protected List<Music> musics;
-    protected User user;
 
-    protected List<UUID> musicsIds;
-    protected UUID userId;
+    @Override
+    public void write(Json json) {
+
+    }
+
+    @Override
+    public void read(Json json, JsonValue jsonValue) {
+
+    }
 }

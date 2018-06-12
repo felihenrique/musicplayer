@@ -1,22 +1,20 @@
 package telas;
 
 import data.Music;
+import data.User;
 import javafx.scene.input.MouseEvent;
 import musicplayer.MusicPlayer;
 
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
-import java.io.IOException;
-
 public class MainWindowController {
     MusicPlayer player;
+    User currentUser;
 
     public MainWindowController() {
         player = new MusicPlayer();
     }
 
     public void onClickPlay(MouseEvent mouseEvent) {
-        Music m = new Music("/home/datacom/teste.mp3");
+        Music m = new Music("/home/felihenrique/teste.mp3");
         player.play(m);
     }
 

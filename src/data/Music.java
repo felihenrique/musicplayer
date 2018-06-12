@@ -4,21 +4,16 @@ import java.io.File;
 import java.util.UUID;
 
 public class Music {
-    private String path;
-    private String name;
-    private Genre genre;
-    private Artist artist;
+    protected String path;
+    protected String name;
+    protected String genre;
+    protected String artist;
 
-    private UUID id;
-    private UUID artistId;
-
-    public Music(String path, String name, Genre genre, Artist artist) {
+    public Music(String path, String name, String genre, String artist) {
         this.path = path;
         this.name = name;
         this.genre = genre;
         this.artist = artist;
-        this.id = UUID.randomUUID();
-        this.artistId = artist.id;
     }
 
     public Music(String path) {
@@ -31,11 +26,22 @@ public class Music {
         return name;
     }
 
-    public Genre getGenre() {
+    public String getGenre() {
         return genre;
     }
 
-    public Artist getArtist() {
+    public String getArtist() {
         return artist;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        try {
+            Music music2 = (Music)obj;
+            return music2.path.equals(this.path);
+        }
+        catch (Exception e) {
+            return false;
+        }
     }
 }
