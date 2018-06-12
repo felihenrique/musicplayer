@@ -41,7 +41,7 @@ public class User implements JsonSerializable {
         musics.forEach( (String s, Music music) -> json.writeValue(music.path));
         json.writeArrayEnd();
         json.writeArrayStart("playlists");
-        musics.forEach( (String s, PlayList playList) -> json.writeValue(playList));
+        playLists.forEach((String s, PlayList playList) -> json.writeValue(playList));
         json.writeArrayEnd();
     }
 }
