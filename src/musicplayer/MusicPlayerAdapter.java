@@ -6,7 +6,7 @@ import javafx.scene.media.MediaPlayer;
 
 import javafx.util.Duration;
 
-public class MusicPlayer {
+public class MusicPlayerAdapter {
     MediaPlayer player;
     Music currentMusic;
     Media media;

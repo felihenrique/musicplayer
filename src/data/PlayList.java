@@ -1,22 +1,33 @@
 package data;
 
-import com.esotericsoftware.jsonbeans.Json;
-import com.esotericsoftware.jsonbeans.JsonSerializable;
-import com.esotericsoftware.jsonbeans.JsonValue;
-
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
-public class PlayList implements JsonSerializable {
+public class PlayList {
     protected String name;
     protected List<Music> musics;
 
-    @Override
-    public void write(Json json) {
-
+    public PlayList(String name) {
+        this.name = name;
+        this.musics = new ArrayList<>();
     }
 
-    @Override
-    public void read(Json json, JsonValue jsonValue) {
+    public void addMusic(Music music) {
+        this.musics.add(music);
+    }
 
+    public void removeMusic(Music music) {
+        this.musics.remove(music);
+    }
+
+    public List<Music> getMusics() {
+        return musics;
+    }
+
+    public String getName() {
+        return name;
     }
 }
