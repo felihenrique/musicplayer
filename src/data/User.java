@@ -26,6 +26,14 @@ public class User {
         this.playLists.add(new PlayList(name));
     }
 
+    public void addPlayList(PlayList playList) {
+        this.playLists.add(playList);
+    }
+
+    public List<PlayList> getPlayLists() {
+        return playLists;
+    }
+
     public void removePlayList(PlayList playList) {
         this.playLists.remove(playList);
     }

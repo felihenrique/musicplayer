@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jl1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jl1_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicplayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/musicplayer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/Artist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/DataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/DataRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/Genre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/MetadataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/data/Music.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/PlayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/data/PlayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/data/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/mainapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/mainapp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/musicplayer/MusicPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/data/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/musicplayer/telas/MainWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Artist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/MetadataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/PlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PlayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/musicplayer/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/musicplayer/MusicPlayerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/telas/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/telas/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/telas/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telas/MainWindowController.java" afterDir="false" />
     </list>
@@ -87,36 +69,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindowController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainWindowController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/telas/MainWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#633#837#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#1053#1422#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/PlayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="375">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/data/Music.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -134,23 +104,26 @@
       <file leaf-file-name="Loader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="204">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainapp/Main.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="390">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +133,8 @@
         <entry file="file://$PROJECT_DIR$/src/telas/MainWindow.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+            <state relative-caret-position="525">
+              <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -208,12 +181,12 @@
         <option value="$PROJECT_DIR$/src/data/Repository.java" />
         <option value="$PROJECT_DIR$/src/data/DataRepository.java" />
         <option value="$PROJECT_DIR$/src/data/Music.java" />
-        <option value="$PROJECT_DIR$/src/data/User.java" />
-        <option value="$PROJECT_DIR$/src/data/Loader.java" />
         <option value="$PROJECT_DIR$/src/mainapp/Main.java" />
-        <option value="$PROJECT_DIR$/src/telas/MainWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/telas/MainWindowController.java" />
         <option value="$PROJECT_DIR$/src/data/PlayList.java" />
+        <option value="$PROJECT_DIR$/src/data/User.java" />
+        <option value="$PROJECT_DIR$/src/telas/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/data/Loader.java" />
+        <option value="$PROJECT_DIR$/src/telas/MainWindowController.java" />
       </list>
     </option>
   </component>
@@ -233,6 +206,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -264,19 +250,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +265,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mp3agic-0.9.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -369,6 +342,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -380,12 +359,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -406,22 +379,23 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1213" height="695" extended-state="6" />
+    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32788944" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32649574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3253769" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18466611" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -431,15 +405,15 @@
       <window_info anchor="right" id="JetGradle" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -473,12 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#633#837#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#1053#1422#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,14 +456,8 @@
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,12 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#633#837#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#1053#1422#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,20 +558,8 @@
     <entry file="file://$PROJECT_DIR$/src/data/Repository.java" />
     <entry file="file://$PROJECT_DIR$/src/data/Genre.java" />
     <entry file="file://$PROJECT_DIR$/src/data/DataLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/data/DataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/MetadataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/DataRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/data/MetadataLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/musicplayer/MusicPlayerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -626,95 +570,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Loader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_162/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/mainapp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/stage/FileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/telas/MainWindow.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        <state relative-caret-position="525">
+          <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_162/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/data/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="2596" selection-start-line="2596" selection-end-line="2596" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainapp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="204">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/telas/MainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#633#837#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#1053#1422#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/PlayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="375">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/telas/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
         </state>
       </provider>
     </entry>
