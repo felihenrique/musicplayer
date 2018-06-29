@@ -1,0 +1,5 @@
+unnamed
+musicas
+/home/philipe/projetos/musicplayer/musicas/nickelback-photograph.mp3;/home/philipe/projetos/musicplayer/musicas/jason_derulo-wiggle.mp3;/home/philipe/projetos/musicplayer/musicas/luis_fonsi-despacito.mp3;/home/philipe/projetos/musicplayer/musicas/marron5-animals.mp3;/home/philipe/projetos/musicplayer/musicas/link_park-in-the-end.mp3;
+playlist_as melhores
+/home/philipe/projetos/musicplayer/musicas/luis_fonsi-despacito.mp3;/home/philipe/projetos/musicplayer/musicas/jason_derulo-wiggle.mp3;

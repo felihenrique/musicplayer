@@ -1,12 +1,13 @@
 package data;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * Classe responsável por carregar e salvar o perfil do usuário no disco
+ */
 public class Loader {
     private Loader() { }
     private static Loader instance;
@@ -17,14 +18,20 @@ public class Loader {
         return instance;
     }
 
-    public User loadUser(File file) throws FileNotFoundException {
+    /**
+     * Carrega um usuário
+     * @param file Objeto file represetando o caminho contendo o arquivo do usuário.
+     * @return Usuário carregado
+     * @throws FileNotFoundException
+     */
+    public User loadUserDef(File file) throws FileNotFoundException {
         FileInputStream str = new FileInputStream(file);
         Scanner scanner = new Scanner(str);
         User u = new User(scanner.nextLine());
         String line;
         String[] musicas = {};
         Map<String, String[]> playLists = new HashMap<>();
-        while (scanner.hasNext()) {
+        while (scanner.hasNextLine()) {
             line = scanner.nextLine();
             if(line.equals("musicas")) {
                 musicas = scanner.nextLine().split(";");
@@ -44,5 +51,35 @@ public class Loader {
             u.playLists.add(p);
         }
         return u;
+    }
+
+    /**
+     * Salva um usuário no disco. O nome do arquivo é o mesmo do nome do usuário.
+     * @param user Usuário a ser salvo.
+     * @throws IOException
+     */
+    public void saveUser(User user) throws IOException {
+        String currentDir = System.getProperty("user.dir");
+        String path = currentDir + "/" + user.getName() + ".txt";
+        FileWriter writer = new FileWriter(path);
+        writer.write(user.getName() + "\n");
+        if(!user.getMusics().isEmpty()) {
+            writer.write("musicas" + "\n");
+            for(Music m : user.getMusics()) {
+                writer.write(m.getPath() + ";");
+            }
+            writer.write("\n");
+        }
+        if(!user.getPlayLists().isEmpty()) {
+            for(PlayList p : user.getPlayLists()) {
+                writer.write("playlist_" + p.getName() + "\n");
+                for (Music m : p.getMusics()) {
+                    writer.write(m.getPath() + ";");
+                }
+                writer.write("\n");
+            }
+        }
+        writer.flush();
+        writer.close();
     }
 }

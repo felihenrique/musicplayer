@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../telas/MainWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("telas/MainWindow.fxml"));
         primaryStage.setTitle("Music Player");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
